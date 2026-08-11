@@ -1,0 +1,15 @@
+# AWS
+.aws-sam/
+*.pem
+
+# Terraform (por si se agrega más adelante)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
