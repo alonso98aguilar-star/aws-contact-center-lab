@@ -2,11 +2,12 @@
 .aws-sam/
 *.pem
 
-# Terraform (por si se agrega más adelante)
+# Terraform
 .terraform/
 *.tfstate
 *.tfstate.*
 *.tfvars
+terraform/build/
 
 # OS
 .DS_Store

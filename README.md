@@ -34,6 +34,22 @@ con permisos mínimos necesarios (principio de menor privilegio).
 | 3. Amazon Connect: instancia y flujo | ✅ | [docs/03-connect.md](docs/03-connect.md) |
 | 4. Integración Connect → Lambda → DynamoDB | ✅ | [docs/04-integracion.md](docs/04-integracion.md) |
 | 5. Prueba end-to-end | ✅ | ver sección de resultados en [docs/04-integracion.md](docs/04-integracion.md) |
+| 6. Migración a Terraform (Infraestructura como Código) | ✅ | [docs/05-terraform.md](docs/05-terraform.md) |
+
+## Infraestructura como código
+
+Desde la Fase 6, toda la infraestructura (excepto los contact flows visuales
+de Connect) se administra con [Terraform](terraform/) en vez de a mano:
+
+```bash
+cd terraform
+terraform init
+terraform plan
+terraform apply
+```
+
+Ver [docs/05-terraform.md](docs/05-terraform.md) para el proceso completo de
+migración (importación de recursos ya existentes, sin recrearlos).
 
 ## Costos
 
