@@ -30,7 +30,7 @@ con permisos mínimos necesarios (principio de menor privilegio).
 |---|---|---|
 | 0. Seguridad: usuario IAM y AWS CLI | ✅ | [docs/00-iam-setup.md](docs/00-iam-setup.md) |
 | 1. DynamoDB: tabla de contactos | ✅ | [docs/01-dynamodb.md](docs/01-dynamodb.md) |
-| 2. CloudWatch: logs y dashboard | ⬜ | docs/02-cloudwatch.md |
+| 2. CloudWatch: logs y dashboard | ✅ | [docs/02-cloudwatch.md](docs/02-cloudwatch.md) |
 | 3. Amazon Connect: instancia y flujo | ⬜ | docs/03-connect.md |
 | 4. Integración Connect → Lambda → DynamoDB | ⬜ | docs/04-integracion.md |
 | 5. Prueba end-to-end | ⬜ | docs/05-pruebas.md |
